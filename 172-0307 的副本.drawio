@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T03:28:25.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="Ij6bvRJs_VRwVrywDkIp" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T05:44:01.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="YNBfvxFfpKxLXGYOjSC8" version="23.1.5" type="github">
   <diagram name="172" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1036" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="1551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,7 +170,7 @@
           <mxGeometry x="11" y="11" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="120" y="41" width="930" height="1060" as="geometry" />
+          <mxGeometry x="120" y="41" width="930" height="1088" as="geometry" />
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-1">
           <mxGeometry width="930" height="40" as="geometry" />
@@ -275,7 +275,7 @@
             <mxRectangle width="400" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxTjI0f82RKwkP7TFESD-41" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-38">
+        <mxCell id="PxTjI0f82RKwkP7TFESD-41" value="无需特殊处理" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-38">
           <mxGeometry x="560" width="370" height="70" as="geometry">
             <mxRectangle width="370" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -293,7 +293,7 @@
             <mxRectangle width="400" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxTjI0f82RKwkP7TFESD-37" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-34">
+        <mxCell id="PxTjI0f82RKwkP7TFESD-37" value="&lt;p style=&quot;line-height: 120%; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;通过&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;IGV&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;排查突变频率计算是否正确，如有问题需要手动修改。&lt;/span&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-34">
           <mxGeometry x="560" width="370" height="70" as="geometry">
             <mxRectangle width="370" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -329,31 +329,31 @@
             <mxRectangle width="400" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxTjI0f82RKwkP7TFESD-49" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-46">
+        <mxCell id="PxTjI0f82RKwkP7TFESD-49" value="查看IGV，如果好的reads支持数&amp;lt;mindp且无verify=yes，则不报出" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-46">
           <mxGeometry x="560" width="370" height="70" as="geometry">
             <mxRectangle width="370" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-1">
-          <mxGeometry y="570" width="930" height="70" as="geometry" />
+          <mxGeometry y="570" width="930" height="69" as="geometry" />
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-51" value="Negative:&amp;nbsp;talt-fc-low" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-50">
-          <mxGeometry width="160" height="70" as="geometry">
-            <mxRectangle width="160" height="70" as="alternateBounds" />
+          <mxGeometry width="160" height="69" as="geometry">
+            <mxRectangle width="160" height="69" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-52" value="T分子支持数 &amp;lt; mindp or T好分子支持数 &amp;lt; mindp-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-50">
-          <mxGeometry x="160" width="400" height="70" as="geometry">
-            <mxRectangle width="400" height="70" as="alternateBounds" />
+          <mxGeometry x="160" width="400" height="69" as="geometry">
+            <mxRectangle width="400" height="69" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-53" value="不会出现在最终结果文件中" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-50">
-          <mxGeometry x="560" width="370" height="70" as="geometry">
-            <mxRectangle width="370" height="70" as="alternateBounds" />
+          <mxGeometry x="560" width="370" height="69" as="geometry">
+            <mxRectangle width="370" height="69" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-1">
-          <mxGeometry y="640" width="930" height="70" as="geometry" />
+          <mxGeometry y="639" width="930" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-55" value="Warning:&amp;nbsp;total-strand-bias&amp;amp;hotspot" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-54">
           <mxGeometry width="160" height="70" as="geometry">
@@ -365,13 +365,13 @@
             <mxRectangle width="400" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxTjI0f82RKwkP7TFESD-57" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-54">
+        <mxCell id="PxTjI0f82RKwkP7TFESD-57" value="&lt;p style=&quot;line-height: 120%; margin-top: 0pt; margin-bottom: 0pt; text-indent: 0in; text-align: left; direction: ltr; word-break: normal;&quot;&gt;查看&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;IGV&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;，如果实际支持&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;reads&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;都为同一方向，则不报出该突变。&lt;/span&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-54">
           <mxGeometry x="560" width="370" height="70" as="geometry">
             <mxRectangle width="370" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-1">
-          <mxGeometry y="710" width="930" height="70" as="geometry" />
+          <mxGeometry y="709" width="930" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-59" value="Warning:&amp;nbsp;talt-rc-low&amp;amp;strand-bias-high（&amp;amp;hotspot）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-58">
           <mxGeometry width="160" height="70" as="geometry">
@@ -383,13 +383,13 @@
             <mxRectangle width="400" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxTjI0f82RKwkP7TFESD-61" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-58">
+        <mxCell id="PxTjI0f82RKwkP7TFESD-61" value="&lt;p style=&quot;line-height: 120%; margin-top: 0pt; margin-bottom: 0pt; text-indent: 0in; text-align: left; direction: ltr; word-break: normal;&quot;&gt;查看&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;IGV&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;，如果实际支持&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;reads&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; color: rgb(64, 64, 64); letter-spacing: 1.2pt;&quot;&gt;都为同一方向，则不报出该突变。&lt;/span&gt;&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-58">
           <mxGeometry x="560" width="370" height="70" as="geometry">
             <mxRectangle width="370" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-70" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-1">
-          <mxGeometry y="780" width="930" height="70" as="geometry" />
+          <mxGeometry y="779" width="930" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-71" value="Warning:&amp;nbsp;talt-freq-low（&amp;amp;hotspot）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-70">
           <mxGeometry width="160" height="70" as="geometry">
@@ -401,31 +401,31 @@
             <mxRectangle width="400" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxTjI0f82RKwkP7TFESD-73" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-70">
+        <mxCell id="PxTjI0f82RKwkP7TFESD-73" value="查看IGV，如果好的reads支持数&amp;lt;mindp且无verify=yes，则不报出" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-70">
           <mxGeometry x="560" width="370" height="70" as="geometry">
             <mxRectangle width="370" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-1">
-          <mxGeometry y="850" width="930" height="70" as="geometry" />
+          <mxGeometry y="849" width="930" height="99" as="geometry" />
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-67" value="Warning:&amp;nbsp;talt-merge-freq-high（&amp;amp;hotspot）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-66">
-          <mxGeometry width="160" height="70" as="geometry">
-            <mxRectangle width="160" height="70" as="alternateBounds" />
+          <mxGeometry width="160" height="99" as="geometry">
+            <mxRectangle width="160" height="99" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-68" value="T 3bp内伴随突变频率 &amp;gt;- 90%（且 是热点）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-66">
-          <mxGeometry x="160" width="400" height="70" as="geometry">
-            <mxRectangle width="400" height="70" as="alternateBounds" />
+          <mxGeometry x="160" width="400" height="99" as="geometry">
+            <mxRectangle width="400" height="99" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxTjI0f82RKwkP7TFESD-69" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-66">
-          <mxGeometry x="560" width="370" height="70" as="geometry">
-            <mxRectangle width="370" height="70" as="alternateBounds" />
+        <mxCell id="PxTjI0f82RKwkP7TFESD-69" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;提示该突变可能需要和附近别的突变合并。1、判断是否需要合并；2、确认是否存在已合并结果；如不存在，则需要手动合并（反馈生信）；3、判断单位点是否保留/删除。（顺式以外单独检出的突变，频率相减。）&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-66">
+          <mxGeometry x="560" width="370" height="99" as="geometry">
+            <mxRectangle width="370" height="99" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-1">
-          <mxGeometry y="920" width="930" height="70" as="geometry" />
+          <mxGeometry y="948" width="930" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-63" value="Warning:&amp;nbsp;germline-divergence（&amp;amp;hotspot）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-62">
           <mxGeometry width="160" height="70" as="geometry">
@@ -437,13 +437,13 @@
             <mxRectangle width="400" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxTjI0f82RKwkP7TFESD-65" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-62">
+        <mxCell id="PxTjI0f82RKwkP7TFESD-65" value="germline?" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-62">
           <mxGeometry x="560" width="370" height="70" as="geometry">
             <mxRectangle width="370" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-1">
-          <mxGeometry y="990" width="930" height="70" as="geometry" />
+          <mxGeometry y="1018" width="930" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PxTjI0f82RKwkP7TFESD-11" value="Warning:&amp;nbsp;blacklist（&amp;amp;hotspot）" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-10">
           <mxGeometry width="160" height="70" as="geometry">
@@ -455,7 +455,7 @@
             <mxRectangle width="400" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxTjI0f82RKwkP7TFESD-13" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-10">
+        <mxCell id="PxTjI0f82RKwkP7TFESD-13" value="查看IGV，如果好的reads支持数&amp;lt;mindp且无verify=yes，则不报出" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="PxTjI0f82RKwkP7TFESD-10">
           <mxGeometry x="560" width="370" height="70" as="geometry">
             <mxRectangle width="370" height="70" as="alternateBounds" />
           </mxGeometry>
