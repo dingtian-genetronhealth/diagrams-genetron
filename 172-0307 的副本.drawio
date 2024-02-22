@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T09:51:33.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="X5DX2w8RLntKOAEhhfuJ" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T09:53:28.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="XhCkAb6elpZZ-oMXmg8b" version="23.1.5" type="github">
   <diagram name="172" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1036" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -296,7 +296,7 @@
             <mxRectangle width="386" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JdmcM7TiIVC_QfUCIf37-4" value="&lt;p style=&quot;line-height: 120%; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;如无需验证&lt;/p&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="JdmcM7TiIVC_QfUCIf37-1">
+        <mxCell id="JdmcM7TiIVC_QfUCIf37-4" value="&lt;p style=&quot;line-height: 120%; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in; text-align: left; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;/p&gt;如果无verify=yes或varType=check，则不需要人工审核" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="JdmcM7TiIVC_QfUCIf37-1">
           <mxGeometry x="596" width="414" height="70" as="geometry">
             <mxRectangle width="414" height="70" as="alternateBounds" />
           </mxGeometry>
